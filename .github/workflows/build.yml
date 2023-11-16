@@ -1,6 +1,9 @@
 name: ci/gh-actions/gui
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+    - master
 
 env:
   FREE_DISKSPACE: |
